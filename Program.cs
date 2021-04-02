@@ -7,7 +7,7 @@ namespace GenericSorting
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Generic Sorting in C#!");
             double[] numbers = new double[] { 645.41, 37.59, 76.41, 5.31, -34.23, 1.11, 1.10, 23.46, 635.47, -876.32, 467.83, 62.25 };
             People[] peoples = { new People { Name = "Hal", Age = 20 },
                 new People { Name = "Susann", Age = 31 }, 
@@ -50,8 +50,6 @@ namespace GenericSorting
             {
                 Console.WriteLine("{0} {1}", d.Name, d.Age);
             }
-
-            //Console.WriteLine("{0} {1}", myPeople.Name, myPeople.Age);
         }
     }
 }
